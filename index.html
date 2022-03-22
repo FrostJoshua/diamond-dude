@@ -19,11 +19,25 @@ padding-top: 20px;
 text-align: center;
 font-size: 18px;
 }
+.square {
+background-color: #ffffff;
+float: left;
+position: relative;
+width: 6.25%;
+height: 6.25%;
+
+}
+.smallcontainer {
+
+margin: auto;
+padding: 10px;
+height: 250px;
+width: 250px;
+grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto
+}
 body {
-  background-color: #E6E6E6;
-background-image: url("diamond-dude.png");
-background-repeat: no-repeat;
-background-position: 50% -300%;
+background-color: #E6E6E6;
+
 
 }
 
@@ -37,7 +51,11 @@ background-position: 50% -300%;
     <div class="header2">
     <p>diamond-dude is the first Image hosted in plain-text(PixelScript) on the blockchain.</p>
     <p>Mintday: 3/21/2022.</p>
+
+     <div class="smallcontainer" id="smallcontainer">
+     </div>
         </div>
+         <script src="script.js"></script>
       </head>
       <body>
 
